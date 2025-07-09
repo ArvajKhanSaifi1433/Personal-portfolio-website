@@ -1,555 +1,824 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arvaj Saifi</title>
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script src="./js/script.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                Arvaj
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class="ri-home-5-line"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="ri-trophy-line"></i> Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#qualification" class="nav__link">
-                            <i class="ri-book-open-line"></i> Qualification
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">
-                            <i class="ri-briefcase-line"></i> Services
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">
-                            <i class="ri-image-line"></i> Projects
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="ri-chat-3-line"></i> Contact
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-            <div class="nav__buttons">
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
-            </div>
-        </nav>
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Arvaj </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="ri-home-5-line"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-open-line"></i> Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="ri-briefcase-line"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-image-line"></i> Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-chat-3-line"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="main">
-        <section class="home section" id="home">
-            <div class="home__container container grid section__border">
-                <div class="home__data grid" data-aos="fade-down" data-aos-duration="2000">
-                    <h1 class="home__title">
-                        Hi I'm Arvaj Saifi<br>Frontend Developer<br>Based In Website<br>
-                    </h1>
-                    <div class="home__blob grid">
-                        <div class="home__prefil">
-                            <img src="./img/arvaj_safii.png" alt="Home Profile">
-                        </div>
-                    </div>
-                    <ul class="home__social">
-                        <a href="https://www.linkedin.com/in/arvaj-khan-753305261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-fill"></i>
-                        </a>
-                        <a href="https://www.instagram.com" target="_blank" class="home__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.facebook.com" target="_blank" class="home__social-link">
-                            <i class="ri-facebook-circle-fill"></i>
-                        </a>
-                    </ul>
-                </div>
-                <div class="home__info" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="">
-                        <h3 class="home__info-title">
-                            BIOGRAPHY
-                        </h3>
-                        <p class="home__info-description">
-                            Hi, I'm Arvaj Saifi, Frontend Developer.
-                            Passionate about designing beautiful web interfaces. Based in Website.
-                        </p>
-                    </div>
-                    <div class="">
-                        <h3 class="home__info-title">CONTACT</h3>
-                        <p class="home__info-description">
-                            Arvaj Saifi</br>
-                            arvajkhan91@gmail.com</br>
-                            +91-6397163668
-                        </p>
-                    </div>
-                    <div class="">
-                        <h3 class="home__info-title">SERVICES</h3>
-                        <p class="home__info-description">
-                            Website Design <br>
-                            UI/UX Design <br>
-                            Animation
-                        </p>
-                    </div>
-                </div>
-                <div class="home__info" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="">
-                        <h3 class="home__info-title">
-                            YEARS OF EXPERIENCE
-                        </h3>
-                        <p class="home__info-number">
-                            0.7+
-                        </p>
-                    </div>
-                    <div class="">
-                        <h3 class="home__info-title">
-                            COMPLETED PROJECTS
-                        </h3>
-                        <p class="home__info-number">
-                            15+
-                        </p>
-                    </div>
-                    <div class="">
-                        <h3 class="home__info-title">
-                            COMPANIES WORKED
-                        </h3>
-                        <p class="home__info-number">
-                            1+
-                        </p>
-                    </div>
-                </div>
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div
+            class="home__data grid"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            <h1 class="home__title">
+              Hi, I'm Arvaj Khan<br />
+              Full-Stack Developer<br />
+              Based in Ghaziabad, India
+            </h1>
+
+            <div class="home__blob grid">
+              <div class="home__prefil">
+                <img src="./img/arvaj_safii.png" alt="Home Profile" />
+              </div>
             </div>
-        </section>
 
-        <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My Favorite Skills</span>
-            <div class="skills__container grid section__border">
-                <div class="skills__content" data-aos="flip-up" data-aos-duration="1500">
-                    <h3 class="skills__title">
-                        <i class="ri-braces-line"></i> Programming Languages
-                    </h3>
-                    <div class="skills__info">
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/mongodb-ar21.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                MongoDB
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/expressjs-ar21.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                ExpressJs
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/nodejs-ar21.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                Node.Js
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/7.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                JavaScript
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/9.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                Git Hub
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Second Skills -->
-                <div class="skills__content" data-aos="flip-up" data-aos-duration="1500">
-                    <h3 class="skills__title">
-                        <i class="ri-pantone-line"></i> Web Technologies
-                    </h3>
-                    <div class="skills__info">
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/3.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                HTML
-                            </h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/4.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                CSS
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/5.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                Bootstrap 5
-                            </h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/6.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                Tailwind Css
-                            </h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="./img/8.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">
-                                React
-                            </h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-                    </div>
-                </div>
+            <ul class="home__social">
+              <a
+                href="https://www.linkedin.com/in/arvaj-khan-753305261/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a
+                href="https://github.com/ArvajKhanSaifi1433"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+            </ul>
+          </div>
+
+          <div class="home__info" data-aos="fade-up" data-aos-duration="2000">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+              <p class="home__info-description">
+                Energetic Full-Stack Developer with 1+ year of experience in
+                MERN stack development. Passionate about clean UI, secure
+                backends, and delivering high-performance web apps.
+              </p>
             </div>
-        </section>
 
-        <section class="qualification section" id="qualification">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">Experience & Education</span>
-
-            <div class="qualification__container container grid section__border" data-aos="zoom-in"
-                data-aos-duration="1500">
-                <div class="qualification__content">
-                    <h3 class="qualification__title">
-                        Education
-                    </h3>
-                    <div class="qualification__info">
-                        <div class="">
-                            <h3 class="qualification__name">
-                                Master In Web Developer
-                            </h3>
-                            <span class="qualification__country">CCSU</span>
-                            <span class="qualification__year">2021-2024</span>
-                        </div>
-                    </div>
-                    <div class="qualification__info">
-                        <div class="">
-                            <h3 class="qualification__name">
-                                Frontend Developer
-                            </h3>
-                            <span class="qualification__country">Remote - Work</span>
-                            <span class="qualification__year">2021-2024</span>
-                        </div>
-                    </div>
-                    <div class="qualification__info">
-                        <div class="">
-                            <h3 class="qualification__name">
-                                Computer Engineer
-                            </h3>
-                            <span class="qualification__country">Institute - Hite</span>
-                            <span class="qualification__year">2021-2024</span>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <h3 class="home__info-title">CONTACT</h3>
+              <p class="home__info-description">
+                Arvaj Khan<br />
+                Ghaziabad, Uttar Pradesh, India<br />
+                arvajkhan91@gmail.com<br />
+                +91-6397163668
+              </p>
             </div>
-        </section>
 
-        <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What i offer</span>
-            <div class="services__container container grid section__border">
-                <div class="services__card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="1500">
-                    <i class="ri-layout-2-line"></i>
-                    <h2 class="services__title">
-                        Frontend <br>
-                        Developer
-                    </h2>
-                    <p class="services__description">
-                        Service that provides the best quality and at the request of the client, with professional work
-                        and customer support.
-                    </p>
-
-                    <div class="services__border"></div>
-                </div>
-                <div class="services__card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="1500">
-                    <i class="ri-code-box-line"></i>
-                    <h2 class="services__title">
-                        Web <br>
-                        Designer
-                    </h2>
-                    <p class="services__description">
-                        Service that provides the best quality and at the request of the client, with professional work
-                        and customer support.
-                    </p>
-
-                    <div class="services__border"></div>
-                </div>
-                <div class="services__card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="1500">
-                    <i class="ri-quill-pen-line"></i>
-                    <h2 class="services__title">
-                        Digital <br>
-                        Animator
-                    </h2>
-                    <p class="services__description">
-                        Service that provides the best quality and at the request of the client, with professional work
-                        and customer support.
-                    </p>
-
-                    <div class="services__border"></div>
-                </div>
+            <div>
+              <h3 class="home__info-title">SERVICES</h3>
+              <p class="home__info-description">
+                Full-Stack Web Development<br />
+                UI/UX Design<br />
+                Dashboard Development<br />
+                API Integration
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section class="project section" id="projects">
-            <h2 class="section__title">Projects</h2>
-            <span class="section__subtitle">Most recent work</span>
-            <div class="container section__border">
-                <div class="projects__container swiper" data-aos="fade-down" data-aos-duration="2000">
-                    <div class="swiper-wrapper">
-                        <div class="projects__content swiper-slide">
-                            <img src="./img/Screenshot 2024-07-22 121622.png" alt="Projects Image" class="project__img">
-                            <div class="">
-                                <span class="projects__subtitle">Web</span>
-                                <h1 class="projects__title">BRANDINGCOUNCIL WEBSITES</h1>
-                                <a href="https://arvaj-bc.netlify.app/" class="Project__button">
-                                    View Demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="projects__content swiper-slide">
-                            <img src="./img/e-commerce.jpg" alt="Projects Image" class="project__img">
-                            <div class="">
-                                <span class="projects__subtitle">Web</span>
-                                <h1 class="projects__title">E-Commerce Store</h1>
-                                <a href="https://arvajkhan.netlify.app/" class="Project__button">
-                                    View Demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="projects__content swiper-slide">
-                            <img src="./img/food restorant.jpg" alt="Projects Image" class="project__img">
-                            <div class="">
-                                <span class="projects__subtitle">Design</span>
-                                <h1 class="projects__title">Food Restaurant</h1>
-                                <a href="https://arvaj-tmato-frontend.onrender.com/" class="Project__button">
-                                    View Demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="projects__content swiper-slide">
-                            <img src="./img/2.jpg" alt="Projects Image" class="project__img">
-                            <div class="">
-                                <span class="projects__subtitle">Animation</span>
-                                <h1 class="projects__title">Animation Prototypes</h1>
-                                <a href="https://cute-horse-f9cab7.netlify.app/" class="Project__button">
-                                    View Demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next">
-                        <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="ri-arrow-left-s-line"></i>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+          <div class="home__info" data-aos="fade-up" data-aos-duration="2000">
+            <div>
+              <h3 class="home__info-title">YEARS OF EXPERIENCE</h3>
+              <p class="home__info-number">1+</p>
             </div>
-        </section>
 
-        <section class="testimonial section" id="projects">
-            <h2 class="section__title">Testimonial</h2>
-            <span class="section__subtitle">My client saying</span>
-            <div class="container section__border" data-aos="fade-down" data-aos-duration="2000">
-                <div class="testimonial__container swiper">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial__content swiper-slide">
-                            <p class="testimonial__description">
-                                "Working with Arvaj saifi is to give a good impression, I carry out my project at a good
-                                cost, with excellent quality and attention. Great service and recommended."
-                            </p>
-                            <div class="">
-                                <h3 class="testimonial__name">Kley Harris</h3>
-                                <span class="testimonial__subtitle">client</span>
-                            </div>
-                        </div>
-                        <div class="testimonial__content swiper-slide">
-                            <p class="testimonial__description">
-                                "Working with Arvaj saifi is to give a good impression, I carry out my project at a good
-                                cost, with excellent quality and attention. Great service and recommended."
-                            </p>
-                            <div class="">
-                                <h3 class="testimonial__name">Mary Lens</h3>
-                                <span class="testimonial__subtitle">client</span>
-                            </div>
-                        </div>
-                        <div class="testimonial__content swiper-slide">
-                            <p class="testimonial__description">
-                                "Working with Arvaj saifi is to give a good impression, I carry out my project at a good
-                                cost, with excellent quality and attention. Great service and recommended."
-                            </p>
-                            <div class="">
-                                <h3 class="testimonial__name">Anna Chel</h3>
-                                <span class="testimonial__subtitle">client</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next">
-                        <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="ri-arrow-left-s-line"></i>
-                    </div>
-                </div>
+            <div>
+              <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+              <p class="home__info-number">20+</p>
             </div>
-        </section>
 
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Get in touch</span>
-
-            <div class="contact__container container grid section__border">
-                <div class="contact__content" data-aos="zoom-in-down">
-                    <h3 class="contact__title">
-                        <i class="ri-chat-3-line"></i> Talk to me
-                    </h3>
-                    <div class="contact__info">
-                        <div class="contact__data">
-                            <span class="contact__data-title">Email</span>
-                            <span class="contact__data-info">arvajkhan91@gmail.com</span>
-                        </div>
-                        <div class="contact__data">
-                            <span class="contact__data-title">Whatsapp</span>
-                            <span class="contact__data-info">+91-6397163668</span>
-                            <a href="#" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
-                        </div>
-                        <div class="contact__data">
-                            <span class="contact__data-title">Message</span>
-                            <span class="contact__data-info">@arvaj.saifi</span>
-                            <a href="#" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact__content" data-aos="zoom-in-down">
-                    <h3 class="contact__title">
-                        <i class="ri-send-plane-line"></i> Write me your project
-                    </h3>
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Names</label>
-                            <input type="text" required placeholder="Write your name" name="user_name" id="contact-name"
-                                class="contact__form-input">
-                        </div>
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Mail</label>
-                            <input type="email" required placeholder="Write your email" name="user_name"
-                                id="contact-email" class="contact__form-input">
-                        </div>
-                        <div class="contact__form-div contact__form-area">
-                            <label for="" class="contact__form-tag">Project</label>
-                            <textarea name="user-project" id="contact-project" placeholder="write your project"
-                                class="contact__form-input"></textarea>
-                        </div>
-                        <p class="contact__message" id="contact-message">Message</p>
-                        <button class="contact__button">
-                            Submit <i class="ri-arrow-right-up-line"></i>
-                        </button>
-                    </form>
-                </div>
+            <div>
+              <h3 class="home__info-title">COMPANIES WORKED</h3>
+              <p class="home__info-number">2</p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <footer class="footer">
-            <div class="footer__container container">
-                <h1 class="footer__title">Arvaj Saifi</h1>
-                <p>Frontend Developer</p>
-                <ul class="footer__list">
-                    <li>
-                        <a href="#home" class="footer__link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#skills" class="footer__link">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects" class="footer__link">Projects</a>
-                    </li>
-                </ul>
-                <ul class="footer__social">
-                    <a href="https://www.linkedin.com/in/arvaj-khan-753305261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social-link">
-                        <i class="ri-linkedin-box-fill"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-                    <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
-                        <i class="ri-facebook-circle-fill"></i>
-                    </a>
-                </ul>
-                <span class="footer__copy">
-                    &#169; copyright Arvaj. All rights reserved
-                </span>
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Tech Stack</span>
+
+        <div class="skills__container grid section__border">
+          <!-- Frontend Skills -->
+          <div
+            class="skills__content"
+            data-aos="flip-up"
+            data-aos-duration="1500"
+          >
+            <h3 class="skills__title">
+              <i class="ri-pantone-line"></i> Frontend & UI
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React"
+                  />
+                </div>
+                <h3 class="skills__name">React.js</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+                    alt="Redux"
+                  />
+                </div>
+                <h3 class="skills__name">Redux</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="HTML5"
+                  />
+                </div>
+                <h3 class="skills__name">HTML5</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="CSS3"
+                  />
+                </div>
+                <h3 class="skills__name">CSS3</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="data:image/png;base64,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"
+                    alt="Tailwind CSS"
+                  />
+                </div>
+                <h3 class="skills__name">Tailwind CSS</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap"
+                  />
+                </div>
+                <h3 class="skills__name">Bootstrap 5</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript"
+                  />
+                </div>
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
             </div>
-        </footer>
-        <a class="scrollup" href="#" id="scrollUp">
-            <i class="ri-arrow-up-line"></i>
-        </a>
+          </div>
+
+          <!-- Backend Skills -->
+          <div
+            class="skills__content"
+            data-aos="flip-up"
+            data-aos-duration="1500"
+          >
+            <h3 class="skills__title">
+              <i class="ri-database-2-line"></i> Backend & Database
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    alt="Node.js"
+                  />
+                </div>
+                <h3 class="skills__name">Node.js</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Express.js"
+                  />
+                </div>
+                <h3 class="skills__name">Express.js</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="MongoDB"
+                  />
+                </div>
+                <h3 class="skills__name">MongoDB</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    alt="TypeScript"
+                  />
+                </div>
+                <h3 class="skills__name">TypeScript</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div
+            class="skills__content"
+            data-aos="flip-up"
+            data-aos-duration="1500"
+          >
+            <h3 class="skills__title">
+              <i class="ri-tools-line"></i> Tools & DevOps
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git"
+                  />
+                </div>
+                <h3 class="skills__name">Git</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="GitHub"
+                  />
+                </div>
+                <h3 class="skills__name">GitHub</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                    alt="Postman"
+                  />
+                </div>
+                <h3 class="skills__name">Postman</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                    alt="VS Code"
+                  />
+                </div>
+                <h3 class="skills__name">VS Code</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">Experience & Education</span>
+
+        <div
+          class="qualification__container container grid section__border"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <!-- Education -->
+          <div class="qualification__content">
+            <h3 class="qualification__title">Education</h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">
+                  Bachelor of Computer Applications (BCA)
+                </h3>
+                <span class="qualification__country"
+                  >Chaudhary Charan Singh University</span
+                >
+                <span class="qualification__year">2021 – 2024</span>
+              </div>
+            </div>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Intermediate (12th) — 69%</h3>
+                <span class="qualification__country">UP Board</span>
+                <span class="qualification__year">2019 – 2021</span>
+              </div>
+            </div>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">High School (10th) — 67%</h3>
+                <span class="qualification__country">UP Board</span>
+                <span class="qualification__year">2017 – 2019</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="qualification__content">
+            <h3 class="qualification__title">Experience</h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Front-End Developer</h3>
+                <span class="qualification__country"
+                  >Global Digitals FX, Ghaziabad</span
+                >
+                <span class="qualification__year">Nov 2024 – Present</span>
+              </div>
+            </div>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Front-End Developer Trainee</h3>
+                <span class="qualification__country">Cyvero Technologies</span>
+                <span class="qualification__year">Jul 2024 – Oct 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I Offer</span>
+
+        <div class="services__container container grid section__border">
+          <!-- Frontend Development -->
+          <div
+            class="services__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"
+          >
+            <i class="ri-layout-2-line"></i>
+            <h2 class="services__title">
+              Front-End <br />
+              Development
+            </h2>
+            <p class="services__description">
+              Responsive and user-centric UI development using React.js and
+              Tailwind CSS. I build dynamic web interfaces, reusable components,
+              and fully responsive layouts.
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <!-- Full Stack Web Development -->
+          <div
+            class="services__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"
+          >
+            <i class="ri-code-s-slash-line"></i>
+            <h2 class="services__title">
+              MERN Stack <br />
+              Development
+            </h2>
+            <p class="services__description">
+              Complete web application development with MongoDB, Express, React,
+              and Node.js. I create scalable and secure platforms with RESTful
+              APIs and role-based dashboards.
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <!-- UI/UX Design & Animation -->
+          <div
+            class="services__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"
+          >
+            <i class="ri-quill-pen-line"></i>
+            <h2 class="services__title">
+              UI/UX Design <br />
+              & Animation
+            </h2>
+            <p class="services__description">
+              Clean and modern design with smooth user interactions using Framer
+              Motion. I focus on accessibility, responsive design, and engaging
+              animations.
+            </p>
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="container section__border">
+          <div
+            class="projects__container swiper"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            <div class="swiper-wrapper">
+              <!-- Project 1 -->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="./img/furrchum.png"
+                  alt="Furrchum Project"
+                  class="project__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Full-Stack</span>
+                  <h1 class="projects__title">
+                    Furrchum - Pet Healthcare Platform
+                  </h1>
+                  <a
+                    href="https://www.furrchum.com"
+                    style="
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 6px;
+                      padding: 10px 18px;
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: white;
+                      background: linear-gradient(135deg, #4c8df5, #2b57d8);
+                      border-radius: 8px;
+                      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+                      text-decoration: none;
+                      transition: all 0.3s ease;
+                    "
+                    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.25)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 14px rgba(0, 0, 0, 0.15)'"
+                    target="_blank"
+                  >
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="./img/gdfx.png"
+                  alt="Global Digitals FX"
+                  class="project__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Global Digitals FX</h1>
+                  <a
+                    href="https://www.globaldigitalsfx.com"
+                    style="
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 6px;
+                      padding: 10px 18px;
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: white;
+                      background: linear-gradient(135deg, #4c8df5, #2b57d8);
+                      border-radius: 8px;
+                      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+                      text-decoration: none;
+                      transition: all 0.3s ease;
+                    "
+                    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.25)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 14px rgba(0, 0, 0, 0.15)'"
+                    target="_blank"
+                  >
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="./img/astro.png"
+                  alt="Astrosoull Project"
+                  class="project__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Web App</span>
+                  <h1 class="projects__title">
+                    Astrosoull - Astrology Platform
+                  </h1>
+                  <a
+                    href="https://www.astrosoull.com"
+                    style="
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 6px;
+                      padding: 10px 18px;
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: white;
+                      background: linear-gradient(135deg, #4c8df5, #2b57d8);
+                      border-radius: 8px;
+                      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+                      text-decoration: none;
+                      transition: all 0.3s ease;
+                    "
+                    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.25)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 14px rgba(0, 0, 0, 0.15)'"
+                    target="_blank"
+                  >
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="./img/Screenshot 2024-07-22 121622.png"
+                  alt="BrandingCouncil"
+                  class="project__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Content</span>
+                  <h1 class="projects__title">BrandingCouncil Website</h1>
+                  <a
+                    href="https://arvaj-bc.netlify.app/"
+                    style="
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 6px;
+                      padding: 10px 18px;
+                      font-size: 15px;
+                      font-weight: 600;
+                      color: white;
+                      background: linear-gradient(135deg, #4c8df5, #2b57d8);
+                      border-radius: 8px;
+                      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+                      text-decoration: none;
+                      transition: all 0.3s ease;
+                    "
+                    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.25)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 14px rgba(0, 0, 0, 0.15)'"
+                    target="_blank"
+                  >
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper navigation buttons -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial section" id="projects">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">My client saying</span>
+        <div
+          class="container section__border"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <div class="testimonial__container swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Arvaj delivered exactly what our pet healthcare platform
+                  needed. His React.js and Tailwind CSS expertise helped bring
+                  Furrchum to life with seamless dashboards and AI diagnostic
+                  integration. Professional, detail-oriented, and fast – highly
+                  recommended!"
+                </p>
+                <div class="">
+                  <h3 class="testimonial__name">Abhishek Verma</h3>
+                  <span class="testimonial__subtitle">Founder, Furrchum</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content" data-aos="zoom-in-down">
+            <h3 class="contact__title">
+              <i class="ri-chat-3-line"></i> Talk to me
+            </h3>
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info">arvajkhan91@gmail.com</span>
+              </div>
+              <div class="contact__data">
+                <span class="contact__data-title">Whatsapp</span>
+                <span class="contact__data-info">+91-6397163668</span>
+                <a href="#" class="contact__button"
+                  >Write me <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+              <div class="contact__data">
+                <span class="contact__data-title">Message</span>
+                <span class="contact__data-info">@arvaj.saifi</span>
+                <a href="#" class="contact__button"
+                  >Write me <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content" data-aos="zoom-in-down">
+            <h3 class="contact__title">
+              <i class="ri-send-plane-line"></i> Write me your project
+            </h3>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input
+                  type="text"
+                  required
+                  placeholder="Write your name"
+                  name="user_name"
+                  id="contact-name"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  required
+                  placeholder="Write your email"
+                  name="user_name"
+                  id="contact-email"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Project</label>
+                <textarea
+                  name="user-project"
+                  id="contact-project"
+                  placeholder="write your project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+              <p class="contact__message" id="contact-message">Message</p>
+              <button class="contact__button">
+                Submit <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__container container">
+          <h1 class="footer__title">Arvaj Saifi</h1>
+          <p>Frontend Developer</p>
+          <ul class="footer__list">
+            <li>
+              <a href="#home" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="#skills" class="footer__link">Skills</a>
+            </li>
+            <li>
+              <a href="#projects" class="footer__link">Projects</a>
+            </li>
+          </ul>
+          <ul class="footer__social">
+            <a
+              href="https://www.linkedin.com/in/arvaj-khan-753305261/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a
+              href="https://github.com/ArvajKhanSaifi1433"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </ul>
+          <span class="footer__copy">
+            &#169; copyright Arvaj. All rights reserved
+          </span>
+        </div>
+      </footer>
+      <a class="scrollup" href="#" id="scrollUp">
+        <i class="ri-arrow-up-line"></i>
+      </a>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
-
-
+  </body>
 </html>
